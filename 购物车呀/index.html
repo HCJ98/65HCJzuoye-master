@@ -13,32 +13,14 @@
 </head>
 
 <body>
-    <!-- 导航开始 -->
-    <header>
-        <nav class="nav bg-light">
-            <a class="nav-link active" href="#">首页</a>
-            <a class="nav-link disabled" href="shoppCart.html">购物车<span class="badge badge-danger" name="totalQty" id="HCJ">0</span></a>
-            <div class="form">
-                <input class="itxt" id="key" accesskey="s" style="color: rgb(153, 153, 153);" type="text" autocomplete="off">
-                <input class="button" onclick="javascript:void(0);" type="button" value="搜索" clstag="clickcart|keycount|xincart|cart_search">
-            </div>
-        </nav>
-        <!-- 导航结束 -->
-        <!-- 商品列表开始 -->
-    </header> <!-- 购物车傍边的0 -->
-    <script>
-          // 利用标签获取
-    document.getElementsByTagName('span');
-          //CSS选择器(单个)
-    var totalQty = document.querySelector('.badge');
-            var totalQty = document.querySelector('.nav-link .badge');
-            var totalQty = document.querySelector('span')
-         //名称
-            document.getElementsByName('totalQty')
-
-         //类名
-    document.getElementsByClassName('badge badge-danger');
-    </script>
+        <header>
+                <nav class="nav bg-light">
+                    <a class="nav-link active" href="#">首页</a>
+                    <a class="nav-link disabled" href="shoppingCart.html">购物车<span class="badge badge-danger" data-name="totalQty">0</span></a>
+                </nav>
+                <!-- 导航结束 -->
+        
+            </header>
 
     <main role="main">
         <div class="py-5 bg-light">
